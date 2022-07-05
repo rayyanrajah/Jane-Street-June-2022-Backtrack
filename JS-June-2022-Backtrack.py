@@ -1,5 +1,8 @@
 # Jane Street June 2022 puzzle solution
 # Link to puzzle: https://www.janestreet.com/puzzles/archive/
+# NOTE: Despite the additional logic, the program still takes a while to compute the answer.
+# A resolution for this, which I am currently working on, would be to model the problem as a linear program and use the Python PuLP library to solve it.
+# Similar Sudoku LP https://github.com/rayyanrajah/Sudoku-Linear-Programming
 
 import numpy as np
 import itertools
